@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文件索引 · 代码库</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            max-width: 800px;
+            margin: 3rem auto;
+            padding: 0 1.5rem;
+            line-height: 1.6;
+            color: #2c3e50;
+            background-color: #fafafa;
+        }
+        h1 {
+            font-weight: 400;
+            font-size: 2.2rem;
+            border-bottom: 2px solid #eaecef;
+            padding-bottom: 0.3rem;
+            margin-bottom: 1.5rem;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin: 0.8rem 0;
+            padding: 0.4rem 0.8rem;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            transition: background 0.2s;
+        }
+        li:hover {
+            background: #f6f8fa;
+        }
+        a {
+            color: #0366d6;
+            text-decoration: none;
+            font-weight: 500;
+            display: inline-block;
+            width: 100%;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .file-path {
+            font-size: 0.85rem;
+            color: #586069;
+            margin-left: 0.5rem;
+            font-family: 'SF Mono', Monaco, 'Cascadia Code', monospace;
+        }
+        .footer {
+            margin-top: 3rem;
+            font-size: 0.9rem;
+            color: #6a737d;
+            border-top: 1px solid #eaecef;
+            padding-top: 1.2rem;
+        }
+        .footer a {
+            color: #0366d6;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>📂 项目文件浏览</h1>
+    <p>本站点包含以下可直接访问的文件：</p>
+    <ul>
+        <!-- 在这里添加你的文件链接，使用相对路径 -->
+        <li>
+            <a href="./index.html">
+                🏠 首页 <span class="file-path">(index.html)</span>
+            </a>
+        </li>
+        <li>
+            <a href="./images/">
+                ℹ️ 数据集预览<span class="file-path">(about.html)</span>
+            </a>
+        </li>
+        <li>
+            <a href="./docs/guide.html">
+                📘 使用指南 <span class="file-path">(docs/guide.html)</span>
+            </a>
+        </li>
+        <li>
+            <a href="./examples/demo.html">
+                🧪 演示示例 <span class="file-path">(examples/demo.html)</span>
+            </a>
+        </li>
+        <!-- 你可以继续添加更多链接，格式保持一致 -->
+    </ul>
+
+    <div class="footer">
+        <p>🔗 需要查看源码？访问 <a href="https://github.com/你的用户名/你的仓库名" target="_blank">GitHub 仓库</a>。</p>
+        <p>✏️ 提示：请编辑此 <code>index.html</code>，将上面的链接替换为你仓库中实际的文件名和路径。</p>
+    </div>
+</body>
+</html>
